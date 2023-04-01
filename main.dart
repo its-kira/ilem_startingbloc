@@ -52,31 +52,10 @@ class MyApp extends StatelessWidget {
   }
 }
 
-class HomePage extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text("Hello world"),
-      ),
-      body: Stack(
-        children: <Widget>[
-          // Ici, vous pouvez placer tous les autres widgets de votre page d'accueil
-          // Le widget Positioned est utilisé pour positionner l'image
-          Positioned(
-            bottom: 0,
-            right: 0,
-            child: Image.asset(
-              'images/logokira.png',
-              width: 100,
-              height: 100,
-            ),
-          ),
-        ],
-      ),
-    );
-  }
-}
 
+///   / _ \
+/// \_\(_)/_/
+///  _//o\\_ 
+///   /   \
 
 
